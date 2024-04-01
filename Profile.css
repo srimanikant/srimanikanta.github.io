@@ -1,0 +1,74 @@
+/* Reset default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+.professional-objective, .experience-summary, .career-profile, .academic-profile, .certifications, .skills, .project-profile {
+    margin-bottom: 30px;
+}
+
+.professional-objective h2, .experience-summary h2, .career-profile h2, .academic-profile h2, .certifications h2, .skills h2, .project-profile h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.professional-objective p, .experience-summary p, .career-profile p, .academic-profile p, .certifications p, .skills p, .project-profile p {
+    font-size: 16px;
+}
+
+/* Define styles for the core competencies section */
+.core-competencies {
+    margin-bottom: 30px;
+}
+
+.core-competencies h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.core-competencies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.core-competencies ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Define styles for the project profiles section */
+.project-profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-profile p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
